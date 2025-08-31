@@ -1,20 +1,26 @@
 ---
-title: CHITHRAVANI
-emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
-tags:
-- streamlit
+title: CHITHRA-VANI
+emoji: "🎵"
+colorFrom: purple
+colorTo: pink
+sdk: streamlit
+sdk_version: "1.26.0"
+app_file: streamlit_app.py
 pinned: false
-short_description: Streamlit template space
-license: cc0-1.0
 ---
 
-# Welcome to Streamlit!
+# CHITHRA-VANI
 
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
+🎶 **CHITHRA-VANI** is a Streamlit app for generating or playing music-related content.  
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+## How to use
+- Open the app
+- Interact with the interface
+- Enjoy the generated outputs
+
+## Requirements
+- Python 3.10
+- Streamlit 1.26.0
+- Pillow 9.1.1
+
+This Space runs entirely on Hugging Face and uses Streamlit for its frontend.
