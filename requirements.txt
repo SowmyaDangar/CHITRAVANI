@@ -1,3 +1,12 @@
+# Streamlit for the UI
 streamlit==1.26.0
-Pillow==10.1.0
-huggingface_hub==1.28.0
+
+# Pillow for image processing
+Pillow==9.5.0
+
+# Hugging Face hub for dataset syncing
+huggingface_hub==1.29.0
+
+# Any other dependencies your src/utils or src/hf_dataset need
+# For example:
+requests==2.31.0
