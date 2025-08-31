@@ -1,14 +1,15 @@
 ---
-title: Streamlit Template Space
+title: CHITHRA VANI
 emoji: 🚀
 colorFrom: red
 colorTo: red
 sdk: docker
 app_port: 8501
 tags:
-  - streamlit
+- streamlit
 pinned: false
 short_description: Streamlit template space
+license: cc0-1.0
 ---
 
 # Welcome to Streamlit!
