@@ -1,18 +1,19 @@
 # --- Core build tools ---
-pip>=25.2
-setuptools>=70.0
-wheel>=0.43
+pip==25.2
+setuptools==70.0.0
+wheel==0.43.0
 
 # --- Streamlit and core libs ---
 streamlit==1.26.0
 pillow==9.5.0
-huggingface_hub>=0.21.0
-pandas>=2.1.0
-numpy>=1.26.0
-altair>=5.0.0
+huggingface_hub==0.21.4
+pandas==2.1.4
+numpy==1.26.4
+altair==5.2.0
 
-# --- AWS dependencies (no conflicts) ---
+# --- AWS dependencies (compatible set) ---
 aiobotocore==2.4.2
 botocore==1.27.59
 boto3==1.24.96
 s3transfer==0.6.0
+
