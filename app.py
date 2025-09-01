@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # app.py - Chitra Vani (full-page gradient, adaptive, clean UI)
 import streamlit as st
 from PIL import Image
@@ -134,7 +134,7 @@ if st.button("💾 Submit Content"):
             payload = make_payload(st.session_state.uploaded_image.read(), "image", caption, language, region, category, license_choice)
         st.session_state.queue.append(payload)
         st.success(f"✅ Saved! Queue length: {len(st.session_state.queue)}")
-=======
+
 # app.py - Chitra Vani (full-page gradient, adaptive, clean UI)
 import streamlit as st
 from PIL import Image
@@ -270,4 +270,4 @@ if st.button("💾 Submit Content"):
             payload = make_payload(st.session_state.uploaded_image.read(), "image", caption, language, region, category, license_choice)
         st.session_state.queue.append(payload)
         st.success(f"✅ Saved! Queue length: {len(st.session_state.queue)}")
->>>>>>> 3352de62ec19751170d9f207a75d004b7f8248e3
+
