@@ -5,7 +5,7 @@ wheel>=0.43
 
 # --- Streamlit and core libs ---
 streamlit==1.26.0
-pillow>=10.0.0
+pillow==9.5.0
 huggingface_hub>=0.21.0
 pandas>=2.1.0
 numpy>=1.26.0
