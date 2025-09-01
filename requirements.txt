@@ -1,5 +1,6 @@
 streamlit==1.26.0
 pillow==9.5.0
-huggingface_hub==0.24.6
-pandas
-numpy
+huggingface_hub==0.23.5
+pandas==2.2.2
+numpy==1.26.4
+altair==5.2.0
